@@ -1,0 +1,258 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:'Amazon Ember Display',
+    sans-serif;
+
+}
+.left{
+    background-color: #000;
+    margin:0px;
+    padding: 0%;
+}
+.left img{
+ padding-left: 50px;
+ padding-top: 20px;
+}
+.right{
+  color:white;
+    float:right;
+    bottom:50px;
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    font-size: 25px;
+}
+.role{
+    color:white;
+    padding-right: 30px;
+    padding-left: 0%;
+}
+.iconify {
+    color: white;
+}
+.signin{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding-right: 40px;
+}
+
+/* part 1 */
+header{
+    background-image: linear-gradient(to right, #000 30%, transparent 58%),
+        url('img/bg-1.jpg');
+    background-position: right top;
+    height: 100vh;
+}
+header .one{
+    font-family:'Amazon Ember Display',
+    sans-serif;
+    color: white;
+    display: flex;
+    justify-content:left;
+    padding-left: 3%;
+    padding-top: 5%;
+    font-size: 2.5rem;
+    
+}
+.two{
+    font-family:'Amazon Ember Display',
+    sans-serif;
+    
+font-size: 2rem;
+    color: white;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+.btn{
+    background-color: #0f79af;
+    color: #fff;
+    margin: 18px;
+   padding-left: 1%;
+   padding-right: 1%;
+   padding-bottom: 1%;
+   padding-top: 1%;
+   
+    border-radius: 2px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/* part 2 */
+.headertwo{
+    background-image: linear-gradient(to right, #000 30%, transparent 58%),
+    url('img/bg-2.jpg');
+    background-position: right top;
+    height: 100vh;
+    color: aliceblue;
+    font-size: 2rem;
+}
+.headertwo .hone{
+   padding-top: 3%;
+    padding-left: 30px;
+}
+.htwo{
+    padding-left: 30px;
+    padding-bottom: 0%;
+    padding-top: 2%;
+   
+}
+.sub{
+    background-color: #0f79af;
+    color: #fff;
+    margin: 18px;
+   padding-left: 1%;
+   padding-right: 1%;
+   padding-bottom: 1%;
+   padding-top: 1%;
+   
+    border-radius: 2px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+
+}
+/* part-3 */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.text-container {
+    flex: 1;
+    padding-right: 20px;
+    padding-bottom: 50%;
+    font-size: 15px;
+}
+.text-container p{
+    font-size: 20px;
+}
+
+.text-container h2 {
+    margin-bottom: 10px;
+}
+
+.image-container {
+    min-height: 20vh;
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    max-width: 60%;
+    box-shadow: black;
+    padding-bottom: 5%;
+   
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+/* part 4 */
+.tv-stick {
+    padding-left: 1%;
+    padding-top: 5%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+   
+    background-color: #000;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url('https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-right-2 {
+    min-height: 70vh;
+    color: #fff;
+    
+    
+    color: white;
+    flex-flow: column nowrap;
+ 
+    position: relative;
+    width: 40%;
+    padding: 50px 5%;
+    /* width: 1500px; */
+    padding-left: 1000px;
+    font-size: 20px;
+    padding-left: 51%;
+    padding-top: 5%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+   
+
+}
+
+.content-right-2 h1 {
+    font-size: 1.5em;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+.content-right-2 .start-link{
+    background-color: #0f79af;
+    color: #fff;
+    /* margin: 18px; */
+    margin-top: 10%;
+    margin-bottom: 10%;
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-bottom: 1%;
+   padding-top: 1%;
+   
+    border-radius: 2px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.firetv-use {
+    margin-top: 5px;
+    font-size: 21px;
+}
+/* part 5 */
+.foot {
+
+    text-align: center;
+    background-color: #222;
+    font-size: 15px;
+    padding: 30px;
+    height: 80px;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+
+}
+
+.lis-of-links {
+    display: flex;
+    text-decoration: none;
+}
+
+.list-of-links li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 4px;
+
+}
+
+.links {
+    text-decoration: none;
+    color: #0f79af;
+
+}
+
+.link-para {
+    color: #b1b1b1
+}
